@@ -42,7 +42,7 @@ _this website is very responsive webpages, thanks by bootstrap framewrok_
 
 **SCREEN** { 1200PX | 992PX | 785PX | 556PX }
 
-## INFOMATION
+## Information
 
 _this is self preparation tourism imagination website develope for Competiiton with my teammate **vinay sharma** <https://github.com/VinaySharma77/> you checkout in my following_
 
