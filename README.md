@@ -34,7 +34,7 @@
 
 ### Home Page
 
-![HomePage](./data/home.png "HomePage")
+![HomePage](./data/tourismHome.png "HomePage")
 
 ## Responsive
 
