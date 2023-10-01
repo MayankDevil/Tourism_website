@@ -1,8 +1,8 @@
 /*
 -   Website 19 ""
--   All Right Reseved | Copyright
--   Designed By Mayank
--   CSS : css/style
+-   Website 19 "Tourism"
+-   Developed | Desgined by Mayank & Vinay
+-   CSS : ./css/style.css
 */
 :root
 {
@@ -54,9 +54,11 @@ body
 {
     /* animation: anime 1s linear infinite alternate; */
 }
-#front_btn
+#front_btn:hover
 {
-    animation: anime2 1s linear infinite alternate;
+    opacity: 0.8;
+    transform: scale(0.9);
+    /* animation: anime2 2s linear infinite alternate; */
 }
 @keyframes anime2
 {
@@ -79,6 +81,16 @@ body
     width: 30px;
     height: auto;
     object-fit: cover;
+}
+.innerBox
+{
+    display: none;
+    opacity: 0.8;
+}
+.outerBox:hover .innerBox
+{
+    transition: all 1s linear;
+    display:block;
 }
 /*
     The End =================================
