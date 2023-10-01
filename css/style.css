@@ -1,8 +1,8 @@
 /*
 -   Website 19 ""
--   Website 19 "Tourism"
--   Developed | Desgined by Mayank & Vinay
--   CSS : ./css/style.css
+-   All Right Reseved | Copyright
+-   Designed By Mayank
+-   CSS : css/style
 */
 :root
 {
@@ -28,7 +28,10 @@
 }
 body
 {
-    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: var(--fade) url(../Data/bg.jpg) no-repeat fixed;
+    background-size: 100%;
+    background-blend-mode: overlay;
 }
 #header
 {
@@ -38,27 +41,53 @@ body
     top:0;
     left: 0;
 }
-.nav-item:hover > .nav-link,
-.nav-link:active
+#header > .container
 {
-    color:var(--bs-teal) !important;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav
+{
+    text-align: center;
+}
+#nav a
+{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    letter-spacing: 1px;
+}
+#nav a:hover
+{
+    text-decoration: none;
+    color:var(--white);
+    background:var(--blue);
+    border-radius: 5px;
+}
+#nav a:last-child:hover
+{
+    background:var(--green);
 }
 .bg
 {
-    scroll-behavior: smooth;
-    background: var(--fade) url(../data/banner.avif) no-repeat;
-    background-size: 100% 100%;
-    background-blend-mode: overlay;
+    background:var(--fade);
 }
 #gl_title
 {
-    /* animation: anime 1s linear infinite alternate; */
+    animation: anime 1s linear infinite alternate;
 }
-#front_btn:hover
+@keyframes anime
 {
-    opacity: 0.8;
-    transform: scale(0.9);
-    /* animation: anime2 2s linear infinite alternate; */
+    from{
+        background:var(--blue);
+    }to{
+        background:var(--green);
+    } 
+}
+.btn
+{
+    animation: anime2 1s linear infinite alternate;
 }
 @keyframes anime2
 {
@@ -69,28 +98,6 @@ body
         opacity:0.8;
         transform: scale(1);
     } 
-}
-#contact a
-{
-    display: block;
-    text-decoration: none;
-    color:var(--bs-teal);
-}
-#media a img
-{
-    width: 30px;
-    height: auto;
-    object-fit: cover;
-}
-.innerBox
-{
-    display: none;
-    opacity: 0.8;
-}
-.outerBox:hover .innerBox
-{
-    transition: all 1s linear;
-    display:block;
 }
 /*
     The End =================================
