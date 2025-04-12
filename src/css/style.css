@@ -1,0 +1,112 @@
+/*
+-   Website 19 ""
+-   Website 19 "Tourism"
+-   Developed | Desgined by Mayank & Vinay
+-   CSS : ./css/style.css
+*/
+:root
+{
+    --black:#000;
+    --sea:#1e7e34;
+    --green:#28a745;
+    --red:#dc3545;
+    --blue:#007bff;
+    --white:#fff;
+    --fade:#eeeeee;
+}
+::-webkit-scrollbar
+{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    background:var(--dark);
+}
+::placeholder
+{
+    color:var(--white);
+}
+body
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#home
+{
+    background:  url(../public/map.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+}
+#header
+{
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top:0;
+    left: 0;
+}
+.nav-item:hover > .nav-link,
+.nav-link:active
+{
+    color:var(--bs-teal) !important;
+}
+#side_image
+{
+    clip-path: polygon(21% 0, 100% 0, 100% 100%, 20% 100%, 0 49%);
+}
+.bg-fade
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    background: radial-gradient(100% 300% at 5%, #fff, transparent) !important;
+}
+#front_btn:hover
+{
+    opacity: 0.8;
+    transform: scale(0.9);
+    /* animation: anime2 2s linear infinite alternate; */
+}
+@keyframes anime2
+{
+    from{
+        opacity:1.0;
+        transform:scale(0.9);
+    }to{
+        opacity:0.8;
+        transform: scale(1);
+    } 
+}
+#contact a
+{
+    display: block;
+    text-decoration: none;
+    color:var(--bs-teal);
+}
+#media a img
+{
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+}
+.innerBox
+{
+    display: none;
+    opacity: 0.8;
+}
+.outerBox:hover .innerBox
+{
+    transition: all 1s linear;
+    display:block;
+}
+.banner
+{
+    background: var(--bs-light);
+}
+/*
+    The End =================================
+*/

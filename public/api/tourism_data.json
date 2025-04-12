@@ -1,0 +1,31 @@
+{
+    "status" : 1,
+    "message" : "fetch tourism data successfully!",
+    "data" : [
+        {
+            "name" : "River Booting",
+            "about" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deserunt assumenda, officiis fugit voluptatem illum.",
+            "pic" : "./public/n2.jpg"
+        },
+        {
+            "name" : "Mount Climbing",
+            "about" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deserunt assumenda, officiis fugit voluptatem illum.",
+            "pic" : "./public/n3.jpg"
+        },
+        {
+            "name" : "Forest Camping",
+            "about" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deserunt assumenda, officiis fugit voluptatem illum.",
+            "pic" : "./public/n4.jpg"
+        },
+        {
+            "name" : "Shnow Skiing",
+            "about" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deserunt assumenda, officiis fugit voluptatem illum.",
+            "pic" : "./public/n5.jpg"
+        },
+        {
+            "name" : "Sea Diving",
+            "about" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deserunt assumenda, officiis fugit voluptatem illum.",
+            "pic" : "./public/n1.jpg"
+        }
+    ]
+}

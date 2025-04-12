@@ -2,19 +2,19 @@
 
 - Name : "Tourism"
 
-- Description : "Create Imagination Tourism website for competition"
+- Description : "learn bootstrap or jquery and API (Application Programming Interface) for competition"
 
 - Version : 1.2
 
-- Update : 01-10-2023
+- Update : 10-09-2023
 
-- Status : REST
+- Status : ACTIVE
 
 - Responsive : True
 
-- TecStack : { HTML | CSS | JavaScript | Bootstrap }
+- TecStack : { HTML | CSS | JavaScript | Bootstrap | JQuery }
 
-- Thanks : { VSCodium | GitHub | Bootstrap | Unplash }
+- Thanks : { VSCode | GitHub | Bootstrap | JQuery | Unplash }
 
 - Work : Self
 
@@ -22,7 +22,7 @@
 
 - Developer : { Mayank | Vinay }
 
-- CopyRight : { Mayank | Vinay }
+- CopyRight : { ProCoder }
 
 - URL : https://mayankdevil.github.io/website-19/
 
