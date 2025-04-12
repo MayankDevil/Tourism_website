@@ -15,7 +15,7 @@ try
             https://isro.vercel.app/api/customer_satellites
             https://isro.vercel.app/api/centres
             */
-        $.get("../../public/api/space_mission_data.json", function (response) {
+        $.get("https://mayankdevil.github.io/Tourism_website/public/api/space_mission_data.json", function (response) {
 
             if (response.status)
             {

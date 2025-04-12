@@ -81,7 +81,7 @@ try
         function fetchData ()
         {
             $.ajax({
-                url : '../../public/api/country_data.json',
+                url : 'https://mayankdevil.github.io/Tourism_website/public/api/country_data.json',
                 type : 'GET',
                 beforeSend : () => {
 
@@ -138,12 +138,9 @@ try
             
         }, 1000);
         
-        
-
-                
         /* jquery get tourism data */
 
-        $.get("../../public/api/tourism_data.json", function (response) {
+        $.get("https://mayankdevil.github.io/Tourism_website/public/api/tourism_data.json", function (response) {
 
             $("#gallery > .container > .row").html(`
                 <div class="col-lg-4 col-md-6 col-12 py-3" id="gl_title">
